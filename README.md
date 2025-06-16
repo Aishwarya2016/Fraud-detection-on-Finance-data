@@ -16,3 +16,13 @@ Isolation Forest – Isolates anomalies faster; assigns an anomaly score.
 One-Class SVM – Learns normal behavior, flags deviations.
 K-Means Clustering – Detects outliers based on distance from cluster centroids.
 Local Outlier Factor (LOF) – Identifies points with lower density than neighbors.
+
+**Research Methodology**
+Each of the four ML models was implemented independently using the same set of features to ensure consistency. 
+The models were trained and evaluated on subsets of the data to detect patterns that suggest fraudulent activities.
+
+-->Data Cleaning & Preprocessing
+->Feature Selection
+-->Model Implementation (Isolation Forest, One-Class SVM, LOF, K-Means)
+-->Anomaly Detection & Visualization
+-->Model Evaluation (Using Intersection Analysis)
